@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".view.ui.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:visibility="visible">
+
+        <!--                    <ImageView-->
+        <!--                        android:layout_width="match_parent"-->
+        <!--                        android:layout_height="685dp"-->
+        <!--                        android:layout_margin="@dimen/defaultLayoutMargin"-->
+        <!--                        android:scaleType="centerCrop"-->
+        <!--                        android:src="@drawable/background" />-->
+
+        <TextView
+            android:id="@+id/greetings"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultLayoutMargin"
+            android:layout_marginBottom="80pt"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="@string/greetings"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="48sp"
+            tools:text="¡¡Bienvenid@s!!" />
+
+        <ImageView
+            android:layout_width="386dp"
+            android:layout_height="169dp"
+            android:layout_margin="@dimen/defaultLayoutMargin"
+            android:scaleType="center"
+            android:src="@drawable/logo10" />
+
+    </LinearLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:text="@string/hello_blank_fragment" />-->
+
+</FrameLayout>
