@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_inventarioFragment"
+            app:destination="@id/navInventarioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navInventarioFragment"
+        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.InventarioFragment"
+        android:label="fragment_inventario"
+        tools:layout="@layout/fragment_inventario" >
+        <action
+            android:id="@+id/action_inventarioFragment_to_usuarioFragment"
+            app:destination="@id/navUsuarioFragment" />
+        <action
+            android:id="@+id/action_inventarioFragment_to_inventarioDetailFragmentDialog"
+            app:destination="@id/inventarioDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navUsuarioFragment"
+        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" >
+        <action
+            android:id="@+id/action_usuarioFragment_to_usuarioDetailFragmentDialog"
+            app:destination="@id/usuarioDetailFragmentDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/inventarioDetailFragmentDialog"
+        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.InventarioDetailDialogFragment"
+        android:label="InventarioDetailFragmentDialog"
+        tools:layout="@layout/fragment_inventario_detail_dialog" />
+    <dialog
+        android:id="@+id/usuarioDetailFragmentDialog"
+        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.UsuarioDetailDialogFragment"
+        android:label="UsuarioDetailFragmentDialog"
+        tools:layout="@layout/fragment_usuario_detail_dialog" />
+</navigation>

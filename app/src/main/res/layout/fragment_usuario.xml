@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.ui.fragments.UsuarioFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/cardCornerRadius"
+                app:cardElevation="@dimen/cardElevation"
+                android:layout_margin="@dimen/defaultLayoutMargin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp" />
+<!--                    <ImageView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/heightImageProduct"-->
+<!--                        android:layout_margin="@dimen/defaultLayoutMargin"-->
+<!--                        android:src="@drawable/logo192x192" />-->
+                    <ImageButton
+                        android:id="@+id/ibPhotoAdmin"
+                        android:layout_width="179dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/logo192x192" />
+                    <TextView
+                        android:id="@+id/tvTitleAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/defaultLayoutMargin"
+                        android:gravity="center_horizontal"
+                        android:text="@string/textTitleAdmin"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/textTitle"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:id="@+id/tvNameAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/defaultLayoutMargin"
+                        android:gravity="center_horizontal"
+                        android:text="Nombre"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/textSizeAdmin" />
+
+                    <TextView
+                        android:id="@+id/tvAddressAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/defaultLayoutMargin"
+                        android:gravity="center_horizontal"
+                        android:text="Dirección"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/textSizeAdmin" />
+
+                    <TextView
+                        android:id="@+id/tvPhoneAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/defaultLayoutMargin"
+                        android:gravity="center_horizontal"
+                        android:text="Teléfono"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/textSizeAdmin" />
+
+                    <TextView
+                        android:id="@+id/tvMailAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/defaultLayoutMargin"
+                        android:gravity="center_horizontal"
+                        android:text="Correo"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/textSizeAdmin" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

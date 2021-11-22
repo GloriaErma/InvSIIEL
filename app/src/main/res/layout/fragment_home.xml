@@ -4,52 +4,123 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/background"
     tools:context=".view.ui.fragments.HomeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-
-
+    <!--    android:background="@drawable/background"   -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="548dp"
-        android:gravity="center"
+        android:gravity="top"
         android:orientation="vertical"
         tools:visibility="visible">
+<!--        <TextView-->
+<!--            android:id="@+id/greetings"-->
+<!--            android:layout_width="390dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="@dimen/defaultLayoutMargin"-->
+<!--            android:layout_marginBottom="80pt"-->
+<!--            android:gravity="bottom|center_horizontal"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:text="@string/greetings"-->
+<!--            android:textColor="@color/primaryTextColor"-->
+<!--            android:textSize="48sp"-->
+<!--            tools:text="¡¡Bienvenid@s!!" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/heightImageProduct"-->
+<!--            android:layout_margin="@dimen/defaultLayoutMargin"-->
+<!--            android:src="@mipmap/ic_launcher" />-->
+<!--        android:src="@drawable/logo10" />-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultLayoutMargin"
+            android:scaleType="center"
+            android:src="@drawable/logo192x192"/>
+    </LinearLayout>
+    // Login
 
-        <!--                    <ImageView-->
-        <!--                        android:layout_width="match_parent"-->
-        <!--                        android:layout_height="685dp"-->
-        <!--                        android:layout_margin="@dimen/defaultLayoutMargin"-->
-        <!--                        android:scaleType="centerCrop"-->
-        <!--                        android:src="@drawable/background" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        tools:context=".view.ui.fragments.AdminFragment">
 
         <TextView
-            android:id="@+id/greetings"
-            android:layout_width="390dp"
+            android:id="@+id/greetings2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/defaultLayoutMargin"
             android:layout_marginBottom="80pt"
             android:gravity="center"
             android:scaleType="centerInside"
-            android:text="@string/greetings"
+            android:text="@string/TituloInicio"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/primaryTextColor"
             android:textSize="48sp"
-            tools:text="¡¡Bienvenid@s!!" />
+            tools:text="Iniciar Sesión" />
 
-        <ImageView
-            android:layout_width="386dp"
-            android:layout_height="169dp"
-            android:layout_margin="@dimen/defaultLayoutMargin"
-            android:scaleType="center"
-            android:src="@drawable/logo10" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ingrese Nombre Usuario..."
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password..."
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/inicioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="49dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text=" "
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
-
-
-    <!--    <TextView-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:text="@string/hello_blank_fragment" />-->
-
+    <!--    <Button-->
+    <!--        android:id="@+id/Inicio"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        android:gravity="bottom"-->
+    <!--        android:text="Inicio" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/button6"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|clip_horizontal|center_horizontal"-->
+    <!--        android:text="Consulta" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/Registro"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|right"-->
+    <!--        android:text="Salir" />-->
 </FrameLayout>

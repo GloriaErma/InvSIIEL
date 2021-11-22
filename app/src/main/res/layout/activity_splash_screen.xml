@@ -5,6 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.ui.activies.SplashScreenActivity">
+<!--Esta es la que llama la activity  SplashScreenActivity-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greetings"
+            android:layout_width="390dp"
+            android:layout_height="74dp"
+            android:layout_margin="@dimen/defaultLayoutMargin"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="@string/greetings"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:text="¡¡Bienvenid@s!! " />
+
+        <TextView
+            android:id="@+id/Texto"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultLayoutMargin"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="APP Inventario SIIEL, que permite ingresar los productos con su existencia y precio"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/sizeTitleComments"
+            tools:text="APP Inventario SIIEL, que permite ingresar los productos con su existencia y precio" />
+
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/ivSplahScreen"

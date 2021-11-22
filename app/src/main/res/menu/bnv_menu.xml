@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHomeFragment"
+        android:title="Inicio"
+        android:icon="@drawable/twotone_house_black_24">
+    </item>
+    <item
+        android:id="@+id/navInventarioFragment"
+        android:title="Inventario"
+        android:icon="@drawable/twotone_inventory_black_24">
+    </item>
+    <item
+        android:id="@+id/navUsuarioFragment"
+        android:title="Usuario"
+        android:icon="@drawable/twotone_person_add_black_24">
+    </item>
+<!--    <item-->
+<!--        android:id="@+id/navLogoutFragment"-->
+<!--        android:title="Salir"-->
+<!--        android:icon="@drawable/twotone_logout_black_24">-->
+<!--    </item>-->
+</menu>

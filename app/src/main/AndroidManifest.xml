@@ -11,6 +11,7 @@
         android:theme="@style/Theme.InventarioSiiel">
         <activity
             android:name=".view.ui.activies.SplashScreenActivity"
+            android:theme="@style/Theme.InventarioSiiel.Otro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

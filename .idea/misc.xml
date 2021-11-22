@@ -5,16 +5,37 @@
       <map>
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17962962962962964" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17962962962962964" />
-        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/drawable/ic_login_foreground.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/drawable/ic_outline_comme.xml" value="0.14907407407407408" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/GECSactivity_main_splash.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/activity_main.xml" value="0.21851851851851853" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/activity_main_splash.xml" value="0.1" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/activity_splash_screen.xml" value="0.17604166666666668" />
-        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_admin.xml" value="0.22" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_admin.xml" value="0.25" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_admin_detail_dialog.xml" value="0.19895833333333332" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_admind.xml" value="0.22" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_admind_detail_dialog.xml" value="0.21" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_coments.xml" value="0.25" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_comments_detail_dialog.xml" value="0.19895833333333332" />
-        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_order.xml" value="0.19895833333333332" />
-        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_order_detail_dialog.xml" value="0.19895833333333332" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_inventario.xml" value="0.25" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_inventario_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_order.xml" value="0.22" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_order_detail_dialog.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_product.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_reg_sing_u_p.xml" value="0.22" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_usuario.xml" value="0.25" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/fragment_usuario_detail_dialog.xml" value="0.25" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/item_comments.xml" value="0.33" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/item_prod_inv.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/layout/item_productd.xml" value="0.18" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/menu/bnv_menu.xml" value="0.33" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_LogIn.xml" value="0.10885416666666667" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_LogIn_round.xml" value="0.1" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_logIn.xml" value="0.1" />
+        <entry key="..\:/GECS-11Sep19/GECS/2020-2021/MINTIC-5Mar-21/Ciclo4/ProgramP18_C4_DM/inventarioSiiel/app/src/main/res/mipmap-anydpi-v26/ic_login.xml" value="0.1" />
       </map>
     </option>
   </component>

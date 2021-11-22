@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.InventarioDetailDialogFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <ImageButton
+            android:id="@+id/ibPhotoAdmin"
+            android:layout_width="186dp"
+            android:layout_height="116dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo192x192"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/tvComments"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:gravity="center_horizontal"
+            android:text="Inventario"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/sizeTitleComments"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etProducto"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="@dimen/defaultLayoutMargin"
+            android:gravity="center_horizontal"
+            android:hint="Ingrese Nombre Producto"
+            android:inputType="textMultiLine" />
+
+        <Spinner
+            android:id="@+id/spinnerUnidades"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:autofillHints="Unidad de Medida"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/etExistencia"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Ingrese Existencia"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etCosto"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:hint="Ingrese Costo $$$$$$$"
+            android:inputType="numberDecimal" />
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Guardar" />
+    </LinearLayout>
+</FrameLayout>

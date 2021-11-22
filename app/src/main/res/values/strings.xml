@@ -1,8 +1,18 @@
 <resources>
-    <string name="app_name">inventarioSiiel</string>
+    <string name="app_name">APP INVENTARIO SIIEL        - GECS</string>
     <!-- TODO: Remove or change this placeholder text -->
-<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="greetings">¡¡ Bienvenidos !! </string>
     <string name="textHome">10sp</string>
+    <string name="TituloInicio">Inicio Sesión</string>
+    <string name="hintComment">Ingrese Comentario</string>
+    <string name="btSaveComment">Guardar Comentario</string>
+    <string name="btBuyProduct">Agregar al Carrito</string>
+    <string name="textTitleAdmin">Mi Perfil</string>
+    <string name="hintName">Nombre</string>
+    <string name="hintAddress">Dirección</string>
+    <string name="hintPhone">Teléfono</string>
+    <string name="hintMail">Correo</string>
+    <string name="btSaveAdmin">Guardar cambios</string>
 </resources>
