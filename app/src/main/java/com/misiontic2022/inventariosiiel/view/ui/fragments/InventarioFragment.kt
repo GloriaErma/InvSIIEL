@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.misiontic2022.inventariosiiel.R
 
+
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
@@ -29,14 +30,18 @@ class InventarioFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_inventario, container, false)
-    }
+        }
+//
+//    override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {
+//        menuInflater.inflate(R.menu.shr_toolbar_menu, menu)
+//        super.onCreateOptionsMenu(menu, menuInflater)
+//    }
 
     companion object {
         /**

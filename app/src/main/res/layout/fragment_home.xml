@@ -6,121 +6,60 @@
     android:layout_height="wrap_content"
     tools:context=".view.ui.fragments.HomeFragment">
     <!--    android:background="@drawable/background"   -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="548dp"
-        android:gravity="top"
-        android:orientation="vertical"
-        tools:visibility="visible">
-<!--        <TextView-->
-<!--            android:id="@+id/greetings"-->
-<!--            android:layout_width="390dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_margin="@dimen/defaultLayoutMargin"-->
-<!--            android:layout_marginBottom="80pt"-->
-<!--            android:gravity="bottom|center_horizontal"-->
-<!--            android:scaleType="centerInside"-->
-<!--            android:text="@string/greetings"-->
-<!--            android:textColor="@color/primaryTextColor"-->
-<!--            android:textSize="48sp"-->
-<!--            tools:text="¡¡Bienvenid@s!!" />-->
-<!--        <ImageView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="@dimen/heightImageProduct"-->
-<!--            android:layout_margin="@dimen/defaultLayoutMargin"-->
-<!--            android:src="@mipmap/ic_launcher" />-->
-<!--        android:src="@drawable/logo10" />-->
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/defaultLayoutMargin"
-            android:scaleType="center"
-            android:src="@drawable/logo192x192"/>
-    </LinearLayout>
-    // Login
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|center"
-        android:orientation="vertical"
-        tools:context=".view.ui.fragments.AdminFragment">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                android:layout_margin="5dp">
 
-        <TextView
-            android:id="@+id/greetings2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/defaultLayoutMargin"
-            android:layout_marginBottom="80pt"
-            android:gravity="center"
-            android:scaleType="centerInside"
-            android:text="@string/TituloInicio"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/primaryTextColor"
-            android:textSize="48sp"
-            tools:text="Iniciar Sesión" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"  >
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/greetings2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/defaultLayoutMargin"
+                        android:layout_marginBottom="80pt"
+                        android:gravity="center"
+                        android:scaleType="centerInside"
+                        android:text="Inicio "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="30sp" />
 
-        <EditText
-            android:id="@+id/Username"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="Ingrese Nombre Usuario..."
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
-        <EditText
-            android:id="@+id/Password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="Password..."
-            android:inputType="textPassword"
-            android:minHeight="48dp" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:layout_margin="@dimen/defaultLayoutMargin"
+                        android:scaleType="center"
+                        android:src="@drawable/logo192x192" />
 
-        <Button
-            android:id="@+id/inicioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Iniciar Sesión" />
+                    <TextView
+                        android:id="@+id/tvHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/defaultLayoutMargin"
+                        android:gravity="fill_horizontal"
+                        android:text="  Por favor seleccione un botón de la barra de Navegación "
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="49dp" />
+                </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="78dp"
-            android:text=" "
-            tools:ignore="SpeakableTextPresentCheck" />
-    </LinearLayout>
-    <!--    <Button-->
-    <!--        android:id="@+id/Inicio"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_gravity="bottom"-->
-    <!--        android:gravity="bottom"-->
-    <!--        android:text="Inicio" />-->
-    <!--    <Button-->
-    <!--        android:id="@+id/button6"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_gravity="bottom|clip_horizontal|center_horizontal"-->
-    <!--        android:text="Consulta" />-->
-    <!--    <Button-->
-    <!--        android:id="@+id/Registro"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_gravity="bottom|right"-->
-    <!--        android:text="Salir" />-->
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

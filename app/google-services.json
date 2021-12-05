@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34890802929",
+    "project_id": "inventariofirebase-100eb",
+    "storage_bucket": "inventariofirebase-100eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34890802929:android:1676ee3fdb7538328e6b50",
+        "android_client_info": {
+          "package_name": "com.misiontic2022.inventariosiiel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34890802929-jt47k2qb864sc19mrobjodrdrtg1m3nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgSvBOskAv4Ceq_8FvYM8ksSjgSNavlYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34890802929-jt47k2qb864sc19mrobjodrdrtg1m3nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

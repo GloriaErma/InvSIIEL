@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.misiontic2022.inventariosiiel">
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InventarioSiiel">
         <activity
+            android:name=".view.ui.activies.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ui.activies.SplashScreenActivity"
-            android:theme="@style/Theme.InventarioSiiel.Otro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

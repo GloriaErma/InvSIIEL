@@ -11,25 +11,33 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
         <TextView
             android:id="@+id/greetings"
             android:layout_width="390dp"
-            android:layout_height="74dp"
+            android:layout_height="50dp"
             android:layout_margin="@dimen/defaultLayoutMargin"
             android:gravity="center"
             android:scaleType="centerInside"
             android:text="@string/greetings"
             android:textColor="@color/primaryTextColor"
-            android:textSize="48sp"
+            android:textSize="45dp"
             android:textStyle="bold"
             tools:text="¡¡Bienvenid@s!! " />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
 
         <TextView
             android:id="@+id/Texto"
             android:layout_width="390dp"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/defaultLayoutMargin"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="7dp"
             android:gravity="center"
             android:scaleType="centerInside"
             android:text="APP Inventario SIIEL, que permite ingresar los productos con su existencia y precio"
@@ -37,16 +45,22 @@
             android:textSize="@dimen/sizeTitleComments"
             tools:text="APP Inventario SIIEL, que permite ingresar los productos con su existencia y precio" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <ImageView
+            android:id="@+id/ivSplahScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:src="@drawable/logo10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/ivSplahScreen"
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:src="@drawable/logo10"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,4 +16,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="primaryTextColor">#042E5C</color>
+    <color name="primaryColor">#FFBB86FC</color>
+    <color name="primaryDarkColor">#2C74C7</color>
+    <color name="primaryLightColor">#E5E7E9</color>
 </resources>

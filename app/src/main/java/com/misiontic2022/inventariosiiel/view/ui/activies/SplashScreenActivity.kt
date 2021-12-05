@@ -3,6 +3,7 @@ package com.misiontic2022.inventariosiiel.view.ui.activies
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.misiontic2022.inventariosiiel.R
@@ -20,21 +21,23 @@ class SplashScreenActivity : AppCompatActivity() {
 
         val animation = AnimationUtils.loadAnimation(this, R.anim.animation)
         binding.ivSplahScreen.startAnimation(animation)
-        val intent = Intent(this,MainActivity::class.java)
+        // GECS
+        // val intent = Intent(this,MainActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
 
         animation.setAnimationListener(object: Animation.AnimationListener {
-            override fun onAnimationStart(animation: Animation?) {
+            override fun onAnimationStart(p0: Animation?) {
                }
 
-            override fun onAnimationEnd(animation: Animation?) {
+            override fun onAnimationEnd(p0: Animation?) {
                 startActivity(intent)
                 finish()
             }
 
-            override fun onAnimationRepeat(animation: Animation?) {
+            override fun onAnimationRepeat(p0: Animation?) {
             }
 
         })
-
+        Log.d("SplashScreenActivity", "******SplashScreenActivity......")
     }
 }

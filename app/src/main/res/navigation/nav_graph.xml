@@ -22,16 +22,20 @@
             android:id="@+id/action_inventarioFragment_to_usuarioFragment"
             app:destination="@id/navUsuarioFragment" />
         <action
-            android:id="@+id/action_inventarioFragment_to_inventarioDetailFragmentDialog"
+            android:id="@+id/action_navInventarioFragment_to_inventarioDetailFragmentDialog"
             app:destination="@id/inventarioDetailFragmentDialog" />
+<!--        <action-->
+<!--            android:id="@+id/action_inventarioFragment_to_inventarioDetailFragmentDialog"-->
+<!--            app:destination="@id/inventarioDetailFragmentDialog" />-->
     </fragment>
+    <!--    android:id="@+id/action_usuarioFragment_to_usuarioDetailFragmentDialog"&ndash;&gt;-->
     <fragment
         android:id="@+id/navUsuarioFragment"
         android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.UsuarioFragment"
         android:label="fragment_usuario"
-        tools:layout="@layout/fragment_usuario" >
+        tools:layout="@layout/fragment_usuario">
         <action
-            android:id="@+id/action_usuarioFragment_to_usuarioDetailFragmentDialog"
+            android:id="@+id/action_navUsuarioFragment_to_usuarioDetailFragmentDialog"
             app:destination="@id/usuarioDetailFragmentDialog" />
     </fragment>
     <dialog
@@ -39,9 +43,38 @@
         android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.InventarioDetailDialogFragment"
         android:label="InventarioDetailFragmentDialog"
         tools:layout="@layout/fragment_inventario_detail_dialog" />
-    <dialog
+<!--    <dialog-->
+<!--        android:id="@+id/usuarioDetailFragmentDialog"-->
+<!--        android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.UsuarioDetailDialogFragment"-->
+<!--        android:label="UsuarioDetailFragmentDialog"-->
+<!--        tools:layout="@layout/fragment_usuario_detail_dialog" />-->
+    <fragment
         android:id="@+id/usuarioDetailFragmentDialog"
         android:name="com.misiontic2022.inventariosiiel.view.ui.fragments.UsuarioDetailDialogFragment"
         android:label="UsuarioDetailFragmentDialog"
-        tools:layout="@layout/fragment_usuario_detail_dialog" />
+        tools:layout="@layout/fragment_usuario_detail_dialog"/>
+<!--    <action-->
+<!--        android:id="@+id/action_navUsuarioFragment_to_usuarioDetailFragmentDialog"-->
+<!--        app:destination="@id/usuarioDetailFragmentDialog" />-->
+<!--    </fragment>-->
+
+
+<!--    <dialog-->
+<!--        android:id="@+id/orderDetailFragmentDialog"-->
+<!--        android:name="com.misiontic2022.tiendadonemilio.view.ui.fragments.OrderDetailDialogFragment"-->
+<!--        android:label="OrderDetailFragmentDialog"-->
+<!--        tools:layout="@layout/fragment_order_detail_dialog"/>-->
+<!--    <dialog-->
+<!--        android:id="@+id/commentsDetailFragmentDialog"-->
+<!--        android:name="com.misiontic2022.tiendadonemilio.view.ui.fragments.CommentsDetailDialogFragment"-->
+<!--        android:label="CommentsDetailFragmentDialog"-->
+<!--        tools:layout="@layout/fragment_comments_detail_dialog"/>-->
+<!--    <fragment-->
+<!--        android:id="@+id/adminDetailFragmentDialog"-->
+<!--        android:name="com.misiontic2022.tiendadonemilio.view.ui.fragments.AdminDetailDialogFragment"-->
+<!--        android:label="AdminDetailFragmentDialog"-->
+<!--        tools:layout="@layout/fragment_admin_detail_dialog">-->
+
+<!--    </fragment>-->
+
 </navigation>
