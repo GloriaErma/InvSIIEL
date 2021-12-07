@@ -1,72 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.fragments.InventarioDetailDialogFragment">
-    <LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView15"
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbarProduct"
             android:layout_width="match_parent"
-            android:layout_height="53dp" />
-
-        <ImageButton
-            android:id="@+id/ibPhotoAdmin"
-            android:layout_width="186dp"
-            android:layout_height="116dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo192x192"
-            tools:ignore="SpeakableTextPresentCheck" />
-        <TextView
-            android:id="@+id/tvComments"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="67dp"
-            android:gravity="center_horizontal"
-            android:text="Inventario"
-            android:textColor="@color/primaryTextColor"
-            android:textSize="@dimen/sizeTitleComments"
-            android:textStyle="bold" />
+            android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/etProducto"
-            android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:layout_marginTop="@dimen/defaultLayoutMargin"
-            android:gravity="center_horizontal"
-            android:hint="Ingrese Nombre Producto"
-            android:inputType="textMultiLine" />
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
 
-        <Spinner
-            android:id="@+id/spinnerUnidades"
-            android:layout_width="match_parent"
-            android:layout_height="46dp"
-            android:autofillHints="Unidad de Medida"
-            tools:ignore="SpeakableTextPresentCheck" />
+                <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="@dimen/defaultLayoutMargin">
 
-        <EditText
-            android:id="@+id/etExistencia"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:ems="10"
-            android:hint="Ingrese Existencia"
-            android:inputType="numberDecimal" />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/etCosto"
-            android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:ems="10"
-            android:hint="Ingrese Costo $$$$$$$"
-            android:inputType="numberDecimal" />
-        <Button
-            android:id="@+id/guardar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Guardar" />
-    </LinearLayout>
-</FrameLayout>
+                       <ImageButton
+                           android:id="@+id/ibPhotoAdmin"
+                           android:layout_width="186dp"
+                           android:layout_height="116dp"
+                           android:layout_gravity="center_horizontal"
+                           android:src="@drawable/logo192x192" />
+
+                       <TextView
+                           android:id="@+id/tvComments"
+                           android:layout_width="match_parent"
+                           android:layout_height="67dp"
+                           android:gravity="center_horizontal"
+                           android:text="Inventario"
+                           android:textColor="@color/primaryTextColor"
+                           android:textSize="@dimen/sizeTitleComments"
+                           android:textStyle="bold" />
+                       <ImageView
+                           android:id="@+id/ivProduct"
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/heigthImageProduct"
+                           android:src="@mipmap/ic_launcher"
+                           android:layout_margin="@dimen/defaultLayoutMargin"/>
+
+                       <TextView
+                           android:id="@+id/tvNameProduct"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_horizontal"
+                           android:text="Producto"
+                           android:textColor="@color/primaryTextColor"
+                           android:textSize="@dimen/sizePriceProduct" />
+
+                       <TextView
+                           android:id="@+id/tvPriceProduct"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:gravity="center_horizontal"
+                           android:text="$999.999"
+                           android:textColor="@color/primaryTextColor"
+                           android:textSize="@dimen/sizePriceProduct" />
+
+                       <Button
+                           android:id="@+id/guardar"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center"
+                           android:text="Guardar" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+           </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

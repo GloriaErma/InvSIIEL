@@ -99,7 +99,8 @@ class UsuarioDetailDialogFragment : Fragment() {
         }
 
         // Paso 12.ACtualizar datos
-        val db : SQLiteDatabase = informacionDBHelper.readableDatabase
+//        val db : SQLiteDatabase = informacionDBHelper.readableDatabase
+        val db : SQLiteDatabase = informacionDBHelper.writableDatabase
         val cursor = db.rawQuery("SELECT * FROM " + Tables.information.TABLE_NAME,null)
         if (cursor == null) {
             Toast.makeText(activity, "** BASE de DATOS VACIA", Toast.LENGTH_LONG).show()

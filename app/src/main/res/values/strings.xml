@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="greetings">¡¡ Bienvenidos !! </string>
+    <string name="greetings">¡¡ Bienvenid@s !! </string>
     <string name="textHome">10sp</string>
     <string name="TituloInicio">Inicio Sesión</string>
     <string name="hintComment">Ingrese Comentario</string>

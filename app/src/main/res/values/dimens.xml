@@ -10,10 +10,12 @@
     <dimen name="itemCommentsUser">13</dimen>
     <dimen name="itemCommentsScore">20sp</dimen>
     <dimen name="itemCommentsComment">25dp</dimen>
+    <dimen name="heigthImageProduct">150dp</dimen>
     <dimen name="sizeTitleComments">25sp</dimen>
     <dimen name="heightImageProduct">150dp</dimen>
-    <dimen name="siseNameProduct">25dp</dimen>
+    <dimen name="sizeNameProduct">25sp</dimen>
     <dimen name="sizePriceProduct">20sp</dimen>
+    <dimen name="siseNameProduct">25dp</dimen>
     <dimen name="textTitle">30sp</dimen>
     <dimen name="textSizeAdmin">25sp</dimen>
     <dimen name="ibHeight">100dp</dimen>

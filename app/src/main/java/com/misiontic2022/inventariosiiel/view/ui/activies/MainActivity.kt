@@ -3,6 +3,8 @@ package com.misiontic2022.inventariosiiel.view.ui.activies
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.core.app.ActivityCompat
+
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.misiontic2022.inventariosiiel.R
@@ -27,6 +29,30 @@ class MainActivity : AppCompatActivity() {
         findViewById<BottomNavigationView>(R.id.bnvMenu).setupWithNavController(navController)
         Log.d("MyActivity", "******fun configNav......")
     }
+
+    override fun onRequestPermissionsResult(
+        requestCode:Int ,
+        permissions: Array <out String>,
+        grantResults: IntArray
+
+    ){
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        val permissionsToRequest= ArrayList<String>()
+        var  i =0
+        while (i < grantResults.size){
+            permissionsToRequest.add(permissions[i])
+            i++
+        }
+        if (permissionsToRequest.size>0){
+            ActivityCompat.requestPermissions(
+                this,
+                permissionsToRequest.toTypedArray(),
+                REQUEST_PERMISSIONS_REQUEST_CODE
+            )
+        }
+
+    }
+
 }
 
 
