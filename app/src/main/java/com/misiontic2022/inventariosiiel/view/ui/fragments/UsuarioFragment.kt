@@ -82,6 +82,7 @@ class UsuarioFragment : Fragment() {
 //                binding.tvAddressAdmin.setText("Dirección: " + cursor.getString(2).toString() )
 //                binding.tvPhoneAdmin.setText("Telefono: " + cursor.getString(3).toString())
 //                binding.tvMailAdmin.setText("Correo: " + cursor.getString(4).toString() )
+
                 binding.tvNameAdmin.setText("Nombre: " + (cursor.getColumnIndex(_nombre)) )
                 binding.tvAddressAdmin.setText("Dirección: " + (cursor.getColumnIndex(_Direccion)) )
                 binding.tvPhoneAdmin.setText("Telefono: " + (cursor.getColumnIndex(_telefono)) )
